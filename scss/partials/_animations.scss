@@ -1,0 +1,10 @@
+@mixin entranceAnimation($duration,$startingPoint,$endingPoint,$delay,$name){
+    @keyframes $name {
+        0%{
+            background-color: black;
+        };
+        100% {
+            background-color: white;
+        }
+    }
+}
